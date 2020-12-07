@@ -8,7 +8,7 @@ Adapted from the [PyTorch Sphinx Theme](https://github.com/pytorch/pytorch_sphin
 
 Run python setup:
 
-```
+```bash
 python setup.py install
 ```
 
@@ -21,7 +21,7 @@ There are a couple of stylesheets and fonts inside the Docs and Tutorials repos 
 
 #### Docs
 
-```
+```bash
 # ./docs/source/conf.py
 
 html_context = {
@@ -34,21 +34,22 @@ html_context = {
 
 #### Tutorials
 
-```
+```bash
 # ./conf.py
 
 # app.add_stylesheet('css/pytorch_theme.css')
 # app.add_stylesheet('https://fonts.googleapis.com/css?family=Lato')
 ```
 
+
 ### Top/Mobile Navigation
 
 The top navigation and mobile menu expect an "active" state for one of the menu items. To ensure that either "Docs" or "Tutorials" is marked as active, set the following config value in the respective `conf.py`, where `{project}` is either `"docs"` or `"tutorials"`.
 
-```
+```bash
 html_theme_options = {
   ...
-  'pytorch_project': {project}
+  'caer_project': {project}
   ...
 }
 ```
