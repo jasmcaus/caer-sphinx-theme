@@ -12,8 +12,6 @@ Run python setup:
 python setup.py install
 ```
 
-and install the dependencies using `pip install -r docs/requirements.txt`
-
 
 ### Built-in Stylesheets and Fonts
 
