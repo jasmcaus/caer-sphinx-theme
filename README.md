@@ -2,7 +2,7 @@
 
 Sphinx theme for [Caer Docs](https://caer.readthedocs.io/en/latest/) based on the [Read the Docs Sphinx Theme](https://sphinx-rtd-theme.readthedocs.io/en/latest).
 
-Adapted from the [PyTorch Sphinx Theme](https://github.com/pytorch/pytorch_sphinx_theme)
+Adapted from the [PyTorch Sphinx Theme](https://github.com/pytorch/pytorch_sphinx_theme).
 
 ## Local Development
 
